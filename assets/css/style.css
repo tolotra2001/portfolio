@@ -5,6 +5,17 @@
     color: #333;
 }
 
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
 a {
     text-decoration: none !important;
 }
