@@ -55,6 +55,21 @@ h4 {
     border-radius: 100%;
 }
 
+.btn-tr-primary {
+    background: none;
+    padding: 10px 20px;
+    border: #fff solid 1px;
+    color: #fff;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.btn-tr-primary:hover {
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #333;
+}
+
 /* Styles pour les animations */
 @keyframes slideUp {
     0% {
@@ -126,4 +141,25 @@ h4 {
     animation: slideInRight 1s ease-out forwards;
     animation-delay: 0.5s;
     /* Ajustez le délai pour synchroniser les menus */
+}
+
+
+#about {
+    background-color: #333;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 10px
+}
+
+.logo-about {
+    background: none;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    width: 70px;
 }
