@@ -1,0 +1,212 @@
+@media (max-width: 768px) {
+    .logo-button {
+        justify-content: center;
+    }
+}
+
+body {
+    font-family: montserrat;
+}
+
+.russo-one-font {
+    font-family: russo one;
+}
+
+.hero-relax {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .logo-button {
+        justify-content: center !important;
+    }
+}
+
+.btn-primary {
+    color: #fff !important;
+}
+
+.navbar-dark {
+    background-color: #333;
+}
+
+.bg-dark {
+    color: #fff;
+}
+
+.bg-hero {
+    background-color: rgba(0, 0, 0, 0.671);
+    height: 100%;
+}
+
+.form-hero {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.form-hero label {
+    position: absolute;
+    color: #333;
+}
+
+.form-hero input {
+    background: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    outline: none;
+    z-index: 999;
+    height: 38px;
+}
+
+.features-left h3,
+.features-left p {
+    text-align: right;
+}
+
+.team-photos {
+    background-image: url('assets/img/homme.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+
+.card-team {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 70px;
+    padding-bottom: 20px;
+}
+
+.features {
+    padding: 20px;
+}
+
+@media (max-width: 992px) {
+    .features {
+        text-align: center;
+    }
+
+    .features .row {
+        display: flex;
+    }
+
+    .features .icon-container {
+        order: -1;
+        text-align: center;
+    }
+
+    .features h3,
+        .features p {
+        text-align: center;
+    }
+
+    .features-content {
+        margin-top: 20px;
+    }
+}
+
+.img-blog {
+    object-fit: cover;
+}
+
+input,
+textarea {
+    outline: none;
+    background: none;
+}
+
+.formulaire-container input,
+.formulaire-container textarea {
+    border: none;
+    border-bottom: 1px solid #333;
+}
+
+.formulaire-container {
+    padding: 40px 30px;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px #000;
+}
+
+.img-team {
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-team-radius {
+    border-radius: 100%;
+    padding: 30px;
+}
+
+.team {
+    margin: 20px 0px;
+}
+
+@media (max-width: 768px) {
+    .team {
+        text-align: center;
+    }
+
+    .contact-team {
+        justify-content: center;
+    }
+}
+
+.projet {
+    min-width: 50%;
+    min-width: 300px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.459);
+    text-align: center;
+}
+
+.bg-projets {
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+.shadow-card {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.486);
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 1px solid;
+}
+
+.icon-tools {
+    width: 25px;
+}
+
+.bg-pricing {
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.profil-testimonial {
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.bg-testimonials {
+    background-color: rgba(0, 0, 0, 0.685);
+}
